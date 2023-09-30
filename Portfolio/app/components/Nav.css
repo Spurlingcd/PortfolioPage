@@ -1,0 +1,40 @@
+nav {
+  background-color: black;
+}
+
+.nav-container{
+  background-color: inherit;
+  color: white;
+  padding: 1rem 0;
+  width: 89%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+}
+
+.nav-container h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.nav-container span:nth-child(1){
+  font-size: 15px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav- menu a {
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0 4px;
+}
+
+.nav-menu a:hover{
+
+}
